@@ -3,7 +3,7 @@
 # You must use the until loop (for and while are forbidden)
 
 let i=0
-until ((i<10))
+until ((i>=10))
 do
 	echo "Holberton School"
 	((i++))
