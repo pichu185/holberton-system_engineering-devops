@@ -6,7 +6,7 @@
 # Otherwise, displays the number
 # In a list format
 
-let i=0
+let i=1
 while ((i<101))
 do
 	if ((i%3==0 && i%5==0))
