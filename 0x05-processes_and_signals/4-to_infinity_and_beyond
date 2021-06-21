@@ -3,5 +3,6 @@
 
 for ((i=1; ; i++))
 do
-	echo "Holberton School"
+	echo "To infinity and beyond"
+	sleep 2
 done
