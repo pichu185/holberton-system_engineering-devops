@@ -14,7 +14,7 @@ if __name__ == "__main__":
         task_dic = {}
         task_dic["task"] = task.get("title")
         task_dic["completed"] = task.get("completed")
-        task_dic["username"] = user.get("username")
+        task_dic["username"] = user_id.get("username")
         completed_tasks.append(task_dic)
     json_obj = {}
     json_obj[argv[1]] = completed_tasks
