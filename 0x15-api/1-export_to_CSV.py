@@ -13,7 +13,7 @@ if __name__ == "__main__":
     for task in all:
         if task.get('completed') is True:
             completed_tasks.append(task.get('title'))
-    
+
     with open(str(argv[1]) + ".csv", "w") as file:
         w = csv.writer(file, quoting=csv.QUOTE_ALL)
         for task in all:
