@@ -9,7 +9,7 @@ def recurse(subreddit, hot_list=[]):
     containing the titles of all hot articles for a given subreddit. If no
     results are found for the given subreddit, the function should return None
     """
-     url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
+    url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
     response = requests.get(url, headers=headers, allow_redirects=False)
     if response.status_code != 200:
         return None
